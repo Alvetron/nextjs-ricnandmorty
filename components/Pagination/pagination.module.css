@@ -1,0 +1,38 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination__wrapper {
+    width: 200px;
+}
+
+.pagin_btn,
+.pagin_btn_next {
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent;
+    border: 2px solid #66FCF1;
+    text-align: center;
+    color: #66FCF1;
+    cursor: pointer;
+}
+
+.active {
+    text-shadow: 0 0 10px yellow;
+}
+
+.pagin_btn {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pagin_btn_next {
+    width: 60px;
+}
+
+.pagin_btn_next:disabled {
+    opacity: 0.5;
+}

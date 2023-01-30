@@ -1,0 +1,84 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.card {
+    position: relative;
+    width: 19%;
+    padding: 0.8%;
+    margin: 0.3%;
+    background-color: var(--bg-secondary);
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.status {
+    text-align: center;
+}
+
+.status__text {
+    display: block;
+    text-transform: lowercase;
+    font-weight: 400;
+    color: #66FCF1;
+}
+
+.status__text_dead {
+    color: #a70000;
+}
+
+.status__text_unknown {
+    color: #46a29f;
+}
+
+.user_list {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.user_list__item {
+    margin-bottom: 2px;
+}
+
+.user_list__button {
+    width: 32px;
+    height: 32px;
+    background-color: #0b0c109a;
+    border-radius: 50%;
+    border: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #66fcf1;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.02s linear;
+}
+
+.card:hover .user_list__button {
+    opacity: 1;
+}
+
+.liked {
+    opacity: 1;
+}
+
+

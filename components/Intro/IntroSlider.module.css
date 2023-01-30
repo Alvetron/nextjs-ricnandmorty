@@ -1,0 +1,16 @@
+.slider {
+    flex-grow: 1;
+}
+
+.slide {
+    position: relative;
+}
+
+.image {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
