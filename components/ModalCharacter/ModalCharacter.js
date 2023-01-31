@@ -22,8 +22,7 @@ export default function ModalCharacter({ data, infoClickHandler }) {
       <button
         className={`${styles.close_button} fa-solid fa-xmark`}
         onClick={() => infoClickHandler(undefined)}
-        aria-label="close"
-      ></button>
+        aria-label="close"></button>
     </div>,
     document.getElementById('__next')
   );
