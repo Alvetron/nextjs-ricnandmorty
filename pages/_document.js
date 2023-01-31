@@ -1,11 +1,11 @@
+import Footer from '@/components/Footer/Footer';
+import Header from '@/components/Header/Header';
 import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* META */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         {/* FONTS */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -22,8 +22,10 @@ export default function Document() {
         />
       </Head>
       <body>
+        <Header />
         <Main />
         <NextScript />
+        <Footer />
       </body>
     </Html>
   );

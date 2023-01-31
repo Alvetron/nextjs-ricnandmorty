@@ -36,8 +36,7 @@ button {
   padding: 0 10px;
 }
 
-
-@media(max-width: 690px) {
+@media (max-width: 690px) {
   html {
     font-size: 14px;
   }

@@ -81,8 +81,7 @@
   opacity: 1;
 }
 
-
-@media(max-width: 690px) {
+@media (max-width: 690px) {
   .list {
     justify-content: center;
   }
@@ -92,7 +91,7 @@
   }
   .user_list {
     top: 5px;
-    right: 5px; 
+    right: 5px;
   }
   .user_list__button {
     opacity: 1;
