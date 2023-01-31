@@ -80,3 +80,21 @@
 .liked {
   opacity: 1;
 }
+
+
+@media(max-width: 690px) {
+  .list {
+    justify-content: center;
+  }
+  .card {
+    width: 35%;
+    margin: 1%;
+  }
+  .user_list {
+    top: 5px;
+    right: 5px; 
+  }
+  .user_list__button {
+    opacity: 1;
+  }
+}

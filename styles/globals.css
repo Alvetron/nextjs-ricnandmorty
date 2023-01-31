@@ -31,12 +31,14 @@ button {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
-.screen_height {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+
+@media(max-width: 690px) {
+  html {
+    font-size: 14px;
+  }
 }

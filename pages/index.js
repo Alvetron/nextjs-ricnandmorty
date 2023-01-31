@@ -6,13 +6,11 @@ import SectionCharacters from '@/components/SectionCharacters/SectionCharacters'
 export default function Home({ data }) {
   return (
     <>
-      <div className="screen_height" id="screen_height">
-        <Head>
-          <title>Rick&Morty</title>
-        </Head>
-        <Header />
-        <IntroSlider />
-      </div>
+      <Head>
+        <title>Rick&Morty</title>
+      </Head>
+      <Header />
+      <IntroSlider />
       <main>
         <SectionCharacters data={data} />
       </main>
