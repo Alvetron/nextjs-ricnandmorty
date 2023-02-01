@@ -12,10 +12,12 @@ export default function Home({ data }) {
         {/* META */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+      <Header />
       <IntroSlider />
       <main>
         <SectionCharacters data={data} />
       </main>
+      <Footer />
     </>
   );
 }
